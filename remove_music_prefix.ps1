@@ -1,0 +1,1 @@
+get-childitem "C:\Users\Kirill\Downloads\*.mp3" | foreach { rename-item $_ $_.Name.Replace("kissvk.com-", "") }
